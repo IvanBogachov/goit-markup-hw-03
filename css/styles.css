@@ -1,6 +1,14 @@
 /* цвет фона Наша команда #F5F4FA */
 /* цвет карточек наша комманда #F5F4FA */
 /* цвет фона героя и подвала  #2F303A */
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 :root {
     --primery-text-color: #757575;
     --secondary-text-color: #212121;
