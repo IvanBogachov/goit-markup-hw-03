@@ -45,13 +45,15 @@ h2 {
 }
 
 /* header */
-.page-header {
+/* .page-header {
     display: flex;
     align-items: center;
     min-height: 80px;
-}
+} */
 .main-logo {
     margin-right: 90px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -68,7 +70,6 @@ h2 {
 .main-nav {
     display: flex;
     align-items: center;
-    /* outline: 1px solid tomato; */
 }
 .main-nav .item:last-child {
     margin-right: 0;
@@ -135,12 +136,18 @@ h2 {
     cursor: pointer;
 }
 /* peculiarities */
-.pecul {
+.pecul-li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.pecul-li > li {
+    width: 270px;
+}
 .title-pecul {
-    display: none;
+    visibility: hidden;
 }
 .pecul h3 {
     color: var(--secondary-text-color);
@@ -160,13 +167,24 @@ h2 {
 .lessons {
     padding-top: 100px;
     padding-bottom: 100px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .les-title {
     margin-top: 0;
     margin-bottom: 40px;
+    text-align: center;
 }
-.lessons {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.les-li > li {
+    display: flex;
+    align-items: center;
+    float: left;
+    max-width: 370px;
+}
+.les-li .item:last-child {
+    margin-right: 0;
+}
+.les-li .item + .item {
+    margin-left: 30px;
 }
 
 /* command */
@@ -178,6 +196,18 @@ h2 {
 .com-title {
     margin-top: 0;
     margin-bottom: 40px;
+    text-align: center;
+}
+.com-li {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 270px;
+}
+.com-li .item:last-child {
+    padding-right: 0;
+}
+.com-li .item + .item {
+    padding-left: 30px;
 }
 .command p {
     font-weight: 500;
@@ -186,10 +216,11 @@ h2 {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.comand-li {
+.com-li > .item {
     background-color: #fff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    
 }
 .command-name {
     color: #212121;
