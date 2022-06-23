@@ -147,8 +147,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    /* padding-top: 100px;
-    padding-bottom: 100px; */
 }
 .pecul-li .item > p {
     margin: 0;
@@ -192,7 +190,7 @@ h2 {
     margin-bottom: 40px;
     text-align: center;
 }
-.les-li > li {
+.les-li {
     display: flex;
     align-items: center;
     float: left;
@@ -205,19 +203,19 @@ h2 {
 .les-li .item + .item {
     margin-left: 30px;
 }
-
 /* command */
 .command {
     background-color: var(--secondary-beckgrouncol-port);
 }
 .com-title {
-    margin-top: 0;
-    margin-bottom: 40px;
+    /* margin-top: 0;
+    margin-bottom: 40px; */
     text-align: center;
 }
 .com-li {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    float: left;
     align-items: center;
 }
 .com-li .item:last-child {
@@ -229,10 +227,6 @@ h2 {
 .com-li img {
     margin-bottom: 30px;
 }
-/* .command-name {
-    margin-top: 0;
-    margin-bottom: 10px;
-} */
 .com-li p {
     margin-top: 0;
     margin-bottom: 30px;
@@ -262,6 +256,7 @@ h2 {
 footer {
     background-color: #2F303A;
 }
+
 .footer-logo {
     font-family: Raleway, sans-serif;
     font-style: normal;
