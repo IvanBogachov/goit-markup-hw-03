@@ -43,6 +43,9 @@ h2 {
     color: inherit;
     text-decoration: none;
 }
+.img {
+    display: block;
+}
 
 /* header */
 /* .page-header {
@@ -110,7 +113,10 @@ h2 {
     text-align: center;
 }
 .hero-title {
+    max-width: 700px;
     margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 40px;
     color: #fff;
     font-weight: 900;
@@ -121,15 +127,16 @@ h2 {
 }
 .button-hero {
     min-width: 200px;
+    padding: 10px 32px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #fff;
     background-color: var(--highlight-color);
+    border: 0;
     border-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -140,16 +147,28 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+}
+.pecul-li .item > p {
+    margin: 0;
 }
 .pecul-li > li {
     width: 270px;
+}
+.pecul-li .item:last-child {
+    margin-right: 0;
+}
+.pecul-li .item + .item {
+    margin-left: 30px;
 }
 .title-pecul {
     visibility: hidden;
 }
 .pecul h3 {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -163,10 +182,9 @@ h2 {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+
 /* lessons */
 .lessons {
-    padding-top: 100px;
-    padding-bottom: 100px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .les-title {
@@ -179,6 +197,7 @@ h2 {
     align-items: center;
     float: left;
     max-width: 370px;
+    padding-bottom: 100px;
 }
 .les-li .item:last-child {
     margin-right: 0;
@@ -189,8 +208,6 @@ h2 {
 
 /* command */
 .command {
-    padding-top: 100px;
-    padding-bottom: 100px;
     background-color: var(--secondary-beckgrouncol-port);
 }
 .com-title {
@@ -200,16 +217,25 @@ h2 {
 }
 .com-li {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 270px;
+    /* flex-wrap: wrap; */
+    align-items: center;
 }
 .com-li .item:last-child {
-    padding-right: 0;
+    margin-right: 0;
 }
 .com-li .item + .item {
-    padding-left: 30px;
+    margin-left: 30px;
 }
-.command p {
+.com-li img {
+    margin-bottom: 30px;
+}
+/* .command-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+} */
+.com-li p {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -217,12 +243,19 @@ h2 {
     letter-spacing: 0.03em;
 }
 .com-li > .item {
+    max-width: 270px;
     background-color: #fff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    
 }
 .command-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 /* footer */
