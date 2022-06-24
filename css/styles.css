@@ -165,10 +165,9 @@ section {
     cursor: pointer;
 }
 /* peculiarities */
-/* .pecul {
-    padding-top: 0;
+.pecul {
     padding-bottom: 0;
-} */
+}
 .pecul-li {
     display: flex;
     flex-wrap: wrap;
