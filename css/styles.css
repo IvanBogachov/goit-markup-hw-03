@@ -46,13 +46,15 @@ h2 {
 .img {
     display: block;
 }
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /* header */
-/* .page-header {
-    display: flex;
-    align-items: center;
-    min-height: 80px;
-} */
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
 .main-logo {
     margin-right: 90px;
     margin-top: 24px;
@@ -109,25 +111,29 @@ h2 {
 }
 /* hero */
 .hero {
+    padding-top: 0;
+    padding-bottom: 0;
     background-color: #2F303A;
     text-align: center;
 }
 .hero-title {
     max-width: 700px;
+    padding-top: 200px;
     margin-top: 0;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: #fff;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.76;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 .button-hero {
     min-width: 200px;
     padding: 10px 32px;
+    margin-bottom: 200px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -192,8 +198,8 @@ h2 {
 }
 .les-li {
     display: flex;
-    align-items: center;
-    float: left;
+    /* align-items: center; */
+    /* float: left; */
     max-width: 370px;
     padding-bottom: 100px;
 }
@@ -215,7 +221,7 @@ h2 {
 .com-li {
     display: flex;
     flex-wrap: wrap;
-    float: left;
+    /* float: left; */
     align-items: center;
 }
 .com-li .item:last-child {
