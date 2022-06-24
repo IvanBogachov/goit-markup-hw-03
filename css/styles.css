@@ -272,8 +272,15 @@ section {
 footer {
     background-color: #2F303A;
 }
-
+.foot-log {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.adress-foot {
+    padding-bottom: 60px;
+}
 .footer-logo {
+    padding-top: 60px;
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -284,7 +291,15 @@ footer {
     word-spacing: inherit;
     text-decoration: none;
 }
-.adress-fot,
+.adress-foot .list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.adrfoo > li:nth-child(n + 2) {
+    padding-top: 9px;
+}
+.adress-foot,
 .foter-adress {
     font-weight: 400;
     font-size: 14px;
@@ -295,7 +310,7 @@ footer {
 .foter-adress {
     color: #fff;
 }
-.adress-fot {
+.adress-foot {
     color: rgba(255, 255, 255, 0.6);
 }
 
