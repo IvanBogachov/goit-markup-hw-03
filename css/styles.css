@@ -363,7 +363,7 @@ cursor: pointer;
 }
 .main-btn:focus,
 .main-btn:hover {
-    color: ;
+    color: #fff;
     background-color: var(--highlight-color);
 
 }
