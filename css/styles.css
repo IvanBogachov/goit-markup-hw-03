@@ -1,0 +1,288 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #434455;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ======= HEADER SECTION =======*/
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.page-header .container{
+    /* height: 72px; */
+    display: flex;
+    align-items: center;
+}
+
+.page-header .nav {
+    display: flex;
+}
+
+.logo-accent {
+    color: #2e2f42;
+}
+.nav-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    margin-right: 332px;
+}
+.logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    padding-top: 24px;
+        margin-bottom: 24px;
+        margin-right: 76px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.nav-item {
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.adres {
+    font-style: normal;
+}
+
+.adres-list {
+    display: flex;
+    gap: 40px;
+}
+
+.adres-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.adres-link:hover,
+.adres-link:focus {
+    color: #404bbf;
+}
+
+/* ======= MAIN SECTION =======*/
+main {
+    flex-grow: 1;
+}
+
+/* ======= HERO SECTION =======*/
+.hero {
+    padding-top: 188px;
+    padding-bottom: 292px;
+    background: #2e2f42;
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    max-width: 496px;
+    padding-top: 0;
+    padding-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-but {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background: #4d5ae5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: 0;
+    border-radius: 4px;
+    
+    padding: 16px 32px;
+    margin: 0 auto;
+}
+
+.hero-but:hover,
+.hero-but:focus {
+    background: #404bbf;
+}
+
+/* ======= BENEFITS SECTION ======= */
+.benef-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.benef-list {
+    display: flex;
+    gap: 24px;
+}
+
+.benef-item {
+    flex-basis: calc((100% - 48px) / 4);
+}
+
+.item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.item-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* ======= TEAM SECTION ======= */
+.team {
+    background: #f4f4fd;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+    flex-basis: calc((100% - 48px) / 4);
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+/* ======= PORTFOLLIO SECTION ======= */
+.portf-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portf-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
+
+.portf-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* ======= FOOTER SECTION ======= */
+footer {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+    display: flex;
+}
+
+.logof-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logof-sp {
+    color: #f4f4fd;
+}
+
+.foot-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    flex-basis: 264px;
+}
