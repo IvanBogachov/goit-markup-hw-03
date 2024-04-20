@@ -67,7 +67,6 @@ img {
 .nav-list {
     display: flex;
     gap: 40px;
-    margin-right: 332px;
 }
 .navig {
     display: flex;
@@ -116,7 +115,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
 .adres-link:hover,
 .adres-link:focus {
